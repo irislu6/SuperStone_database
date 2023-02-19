@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C54DA6B-7701-AD65-BEC0-805C1CBF1CC2" name="A_DIM_CATEGORY">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>88609C89-C773-0212-59ED-DD658C77A1EC</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CATEGORY_ID" id="110768A8-F840-9719-91DE-CFFBBCCA1FFA">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[category id num]]></commentInRDBMS>
+<generatorID>2F1DB8E0-6CF8-E477-988C-B2147AEED06B</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_NAME" id="571CBFA0-6A37-3E82-9A87-A32EB67F3F8E">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[category name]]></commentInRDBMS>
+<generatorID>7A70536D-E8B2-A84C-48AC-80CF127A2F66</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9A21114-0619-AC70-8008-D5B28DAFDF57" name="A_DIM_CATEGORY_PK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>C52503F9-AE0F-6104-3265-E3B0F05B4481</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="110768A8-F840-9719-91DE-CFFBBCCA1FFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

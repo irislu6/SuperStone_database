@@ -1,0 +1,235 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B685841-23EE-DC5A-B76E-718B9093CBEB" name="A_FACT_ORDER_PRODUCT">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 15:05:43 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ITEM_SEQ" id="3D3DBEA6-103E-DB8C-4221-194064F1FD25">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-24 13:13:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[item sequence]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QUANTITY" id="E5D74706-92FD-D0F9-A5F5-2B1E9B326069">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 15:06:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[quantity number]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALES_PRICE" id="1EF7EC5D-F31C-6453-5DEE-DD49862EF50E">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 15:06:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[sales price]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISCOUNT" id="849E9DA5-A670-7659-1854-FEC54228F04C">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 15:07:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[discount]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SHIPMENT_COST" id="5651F5A5-246B-0232-0DD2-7C93807ADB5A">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-24 13:12:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[shipment cost]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT_ID" id="45F172B7-F8F3-26EF-DC40-2BD2A42D58CC">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-24 17:27:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[product id number]]></commentInRDBMS>
+<generatorID>8C16C592-139C-ADBF-95B4-07E6E12D8140</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<referedAttribute>52C3E92A-6533-F5A9-3D98-E249C7FEB589</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGION_ID" id="5826B0EB-543D-5978-B191-71C2937F0BFB">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:28:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[region id number]]></commentInRDBMS>
+<generatorID>089D342E-6F5F-D183-0A4C-058CEE0062DB</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<referedAttribute>309786EF-ECB0-6C98-FADF-A9C80087B674</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMER_ID" id="788590BC-9120-061B-C81F-3FE75C1CD5A4">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:28:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer id number]]></commentInRDBMS>
+<generatorID>1535184F-A476-C44B-3B6E-ACA796C56BB0</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<referedAttribute>6150B772-CCD3-FD88-D4F1-8AACBF7A7EB4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARKET_ID" id="E913EAC1-7F52-50F4-90B6-18530BD99982">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:29:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[market id  number]]></commentInRDBMS>
+<generatorID>34BA6483-A24F-07E5-1E04-6CD3F4F27898</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<referedAttribute>C80561F2-E4EF-D93C-9D4D-A5BA27195D6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_SEQ" id="87E9F479-3C3D-EFC2-71D9-269D9D983A06">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:29:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[order sequence]]></commentInRDBMS>
+<generatorID>0D183850-D605-4D9F-62F2-72EA43624EA3</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<referedAttribute>1632C615-A0EB-84EA-CCDC-1425C11EFA39</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SUBCATEGORY_ID" id="910AA15E-C47F-DB95-25A0-F77997AC760E">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:29:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[subcategory id]]></commentInRDBMS>
+<generatorID>7A891EEF-AE6E-2557-6E84-EC44A6D4A620</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<referedAttribute>18B2519D-2EF8-C297-D233-E40EFB6A852E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORY_ID" id="EF088F57-36C9-8D6A-2053-C57636B84A32">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:30:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[category id number]]></commentInRDBMS>
+<generatorID>54A8E143-DD01-F6A4-F0E6-AABBE9726CDB</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<referedAttribute>2F1DB8E0-6CF8-E477-988C-B2147AEED06B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_key" id="D977A041-399A-D5EC-44AD-96F4F1F8A47A">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:42:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[date key]]></commentInRDBMS>
+<generatorID>1EF460EE-C02F-D1D1-F42D-66B4302EF544</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<referedAttribute>B5EE9694-5CBE-111B-A1E8-46487A02D5C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A1D1A13-22BB-E86E-F42D-1A18FE6F39FB" name="GroupA_ORDER_PRODUCT PK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-24 13:13:51 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>8C16C592-139C-ADBF-95B4-07E6E12D8140,3D3DBEA6-103E-DB8C-4221-194064F1FD25</newElementsIDs>
+<usedAttributes>
+<attributeRef>45F172B7-F8F3-26EF-DC40-2BD2A42D58CC</attributeRef>
+<attributeRef>3D3DBEA6-103E-DB8C-4221-194064F1FD25</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Star_schema_Oracle_modeler" id="C791AFFD-BB55-FE41-F174-A78F1BF3691C" version="3.5">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:17:36 UTC</createdTime>
+<ownerDesignName>GroupA-hw1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C791AFFD-BB55-FE41-F174-A78F1BF3691C</designId>
+</OSDM_Design>

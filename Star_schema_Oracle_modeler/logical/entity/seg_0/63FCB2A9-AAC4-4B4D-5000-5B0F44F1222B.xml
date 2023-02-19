@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63FCB2A9-AAC4-4B4D-5000-5B0F44F1222B" name="A_DIM_CUSTOMER">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:21:44 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUSTOMER_ID" id="6150B772-CCD3-FD88-D4F1-8AACBF7A7EB4">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:21:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTOMER ID NUM]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C_FNAME" id="3C476430-1E6F-60C8-03FF-F622DDB9CE90">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:22:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTOMER FIRST NAME]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C_LNAME" id="DA483188-6C44-9A65-19CF-25BAD31D5F7D">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:22:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTOMER_LAST NAME]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C_CITY" id="F7EE56F1-33FC-A149-F2E3-CE6C99EFDA87">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:23:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTOMER CITY]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C_STATE" id="B52634AA-317B-8C4F-CF2A-121C7824BB76">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:23:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer state]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C_COUNTRY" id="68DA568F-8796-B149-259A-F7670E0A12C3">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:24:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer country]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C_PINCODE" id="48889E60-283F-ECD5-3967-4243BAE3773B">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:24:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer pincode]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C_SEGMENT" id="D9C16A67-B3D5-83CC-5746-90385959AAF1">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:24:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer segment]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62415271-7D77-F781-DDC9-E74F1D4719B2" name="GroupA_CUSTOMER PK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:22:04 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6150B772-CCD3-FD88-D4F1-8AACBF7A7EB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

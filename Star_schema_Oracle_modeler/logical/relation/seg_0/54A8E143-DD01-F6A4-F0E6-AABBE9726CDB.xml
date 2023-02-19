@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CATEGORY" directorySegmentName="seg_0" id="54A8E143-DD01-F6A4-F0E6-AABBE9726CDB">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:30:15 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<sourcePk>C52503F9-AE0F-6104-3265-E3B0F05B4481</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>88609C89-C773-0212-59ED-DD658C77A1EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B685841-23EE-DC5A-B76E-718B9093CBEB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,316 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8C0C6E6-98B6-F82D-76BD-BE40DAC9B642" name="A_FACT_ORDER_PRODUCT">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>1B685841-23EE-DC5A-B76E-718B9093CBEB</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ITEM_SEQ" id="6AC41B19-4A9D-EE5B-D8CB-4BBAE025F1B5">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[item sequence]]></commentInRDBMS>
+<generatorID>3D3DBEA6-103E-DB8C-4221-194064F1FD25</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY" id="2DF822ED-15A2-2DF5-0980-C561CAB2615C">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[quantity number]]></commentInRDBMS>
+<generatorID>E5D74706-92FD-D0F9-A5F5-2B1E9B326069</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALES_PRICE" id="1B6D5D97-E0E4-DC28-9469-C1F5A708DB97">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[sales price]]></commentInRDBMS>
+<generatorID>1EF7EC5D-F31C-6453-5DEE-DD49862EF50E</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCOUNT" id="F2876FF5-4C61-F710-9DCC-2F2472769E70">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[discount]]></commentInRDBMS>
+<generatorID>849E9DA5-A670-7659-1854-FEC54228F04C</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIPMENT_COST" id="72CE66E3-A1CD-9026-1F48-3D599DC4BABF">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[shipment cost]]></commentInRDBMS>
+<generatorID>5651F5A5-246B-0232-0DD2-7C93807ADB5A</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_ID" id="559BF6EA-F345-49E4-8D96-B03FD01D6994">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[product id number]]></commentInRDBMS>
+<generatorID>45F172B7-F8F3-26EF-DC40-2BD2A42D58CC</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F88025CF-E73C-D39F-6998-139DCFFEFC1E" referredColumn="80A6E7EC-5126-A5B2-2245-B1F7E72A6C72"/>
+</associations>
+</Column>
+<Column name="REGION_ID" id="D4D2E68B-6AD0-DEAC-6C8D-9EC0035D79AC">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[region id number]]></commentInRDBMS>
+<generatorID>5826B0EB-543D-5978-B191-71C2937F0BFB</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B06C3D90-C0ED-E28D-1E12-6437D3DB8367" referredColumn="37FB891F-3EB4-D2F5-DC63-BC42D1BF8D31"/>
+</associations>
+</Column>
+<Column name="CUSTOMER_ID" id="A74F432A-B150-C246-A0BD-6A19334752E3">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer id number]]></commentInRDBMS>
+<generatorID>788590BC-9120-061B-C81F-3FE75C1CD5A4</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AFD48FE-D569-9B7B-1BB3-CA868D026724" referredColumn="B89018EB-9AA6-CF79-9BA1-930ADD2D5C87"/>
+</associations>
+</Column>
+<Column name="MARKET_ID" id="1C7ED2F3-9C74-FF6F-1C93-CF7B0E9D6C05">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[market id  number]]></commentInRDBMS>
+<generatorID>E913EAC1-7F52-50F4-90B6-18530BD99982</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFA7D831-826F-A083-CFAB-1997CC2DAD38" referredColumn="7F0E16CA-6954-8C96-046B-5D589F5EB411"/>
+</associations>
+</Column>
+<Column name="ORDER_SEQ" id="9C28C30B-7061-3339-D849-C228A20148C4">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[order sequence]]></commentInRDBMS>
+<generatorID>87E9F479-3C3D-EFC2-71D9-269D9D983A06</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BD21185-7CA2-FC83-D33B-3198BF2B1C5E" referredColumn="B371C762-2832-CB33-D6E0-81F87C06536F"/>
+</associations>
+</Column>
+<Column name="SUBCATEGORY_ID" id="2624E547-14E5-F8FA-2E27-46D1007B6793">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[subcategory id]]></commentInRDBMS>
+<generatorID>910AA15E-C47F-DB95-25A0-F77997AC760E</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5122E9C5-3374-06F1-A65D-D5A16947E505" referredColumn="15866E60-184B-0D18-8AE6-C9D465292C3B"/>
+</associations>
+</Column>
+<Column name="CATEGORY_ID" id="D39596B1-5E44-3C66-79CA-8C330CDD4B79">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[category id number]]></commentInRDBMS>
+<generatorID>EF088F57-36C9-8D6A-2053-C57636B84A32</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D66678E8-F113-0637-EDBA-A15A2B1E5969" referredColumn="110768A8-F840-9719-91DE-CFFBBCCA1FFA"/>
+</associations>
+</Column>
+<Column name="date_key" id="410CF442-146F-7003-7CE5-50665A515281">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[date key]]></commentInRDBMS>
+<generatorID>D977A041-399A-D5EC-44AD-96F4F1F8A47A</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8131C8A-2C61-9D1C-7692-CD7F1BB4B599" referredColumn="A4507710-FA6E-61FA-5F9C-061AE71D682A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="829A1C73-9045-45E9-F9C5-294D3D718B04" name="A_FACT_ORDER_PRODUCT_PK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>9A1D1A13-22BB-E86E-F42D-1A18FE6F39FB</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AC41B19-4A9D-EE5B-D8CB-4BBAE025F1B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24136E1F-AEA9-49C5-261A-C62F583000A3" name="A_FACT_CATEGORY_FK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>54A8E143-DD01-F6A4-F0E6-AABBE9726CDB</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D39596B1-5E44-3C66-79CA-8C330CDD4B79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2D88773-56D9-335B-18C7-2678D1A07ADD" name="A_FACT_CUSTOMER_FK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>1535184F-A476-C44B-3B6E-ACA796C56BB0</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A74F432A-B150-C246-A0BD-6A19334752E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5724BB92-6082-2BED-4AD4-10F0DA6E0C34" name="A_FACT_DIM_DATE_FK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>1EF460EE-C02F-D1D1-F42D-66B4302EF544</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="410CF442-146F-7003-7CE5-50665A515281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D646CC12-0601-7DD8-5D8D-E364AD753479" name="A_FACT_MARKET_FK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>34BA6483-A24F-07E5-1E04-6CD3F4F27898</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C7ED2F3-9C74-FF6F-1C93-CF7B0E9D6C05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42377033-0D23-C803-6A07-5A19836CFEE1" name="A_FACT_ORDER_FK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>0D183850-D605-4D9F-62F2-72EA43624EA3</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C28C30B-7061-3339-D849-C228A20148C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3841DBB4-F481-C979-197C-31EB2CD72496" name="A_FACT_REGION_FK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>089D342E-6F5F-D183-0A4C-058CEE0062DB</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4D2E68B-6AD0-DEAC-6C8D-9EC0035D79AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A348CA88-E452-6399-D959-13749783DCF4" name="A_FACT_SUB_CATEGORY_FK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>7A891EEF-AE6E-2557-6E84-EC44A6D4A620</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2624E547-14E5-F8FA-2E27-46D1007B6793"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F5C9725-02BB-31B7-B0F4-7502E21D23FA" name="A_FACT_PRODUCT_FK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>8C16C592-139C-ADBF-95B4-07E6E12D8140</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="559BF6EA-F345-49E4-8D96-B03FD01D6994"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

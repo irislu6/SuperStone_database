@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70907280-80D2-E80E-AF28-BAF0C6DAA415" name="A_DIM_PRODUCT">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 13:05:06 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PRODUCT_ID" id="52C3E92A-6533-F5A9-3D98-E249C7FEB589">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 13:05:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[product id number]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="P_NAME" id="C2E921FE-D775-5C6C-04EB-C6F7CB2C5828">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 13:05:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[product name]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04D8A520-EA1C-4F95-9EA3-937F02373AC1" name="GroupA_PRODUCT PK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 13:05:23 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52C3E92A-6533-F5A9-3D98-E249C7FEB589</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

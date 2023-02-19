@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F58CF4CE-9286-B16B-3248-F93E6D48EBCD" name="A_DIM_CUSTOMER">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>63FCB2A9-AAC4-4B4D-5000-5B0F44F1222B</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_ID" id="B89018EB-9AA6-CF79-9BA1-930ADD2D5C87">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTOMER ID NUM]]></commentInRDBMS>
+<generatorID>6150B772-CCD3-FD88-D4F1-8AACBF7A7EB4</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_FNAME" id="01C7A0C5-3CFE-CD8B-B8DD-07C3010FD8E8">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTOMER FIRST NAME]]></commentInRDBMS>
+<generatorID>3C476430-1E6F-60C8-03FF-F622DDB9CE90</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_LNAME" id="99ABB6C2-483C-C6ED-6180-1619214183BE">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTOMER_LAST NAME]]></commentInRDBMS>
+<generatorID>DA483188-6C44-9A65-19CF-25BAD31D5F7D</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_CITY" id="F2CC80B0-D825-8808-9B20-740B5C48ACF1">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[CUSTOMER CITY]]></commentInRDBMS>
+<generatorID>F7EE56F1-33FC-A149-F2E3-CE6C99EFDA87</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_STATE" id="117C9CB9-678B-804B-C2B3-ACBC04D39C7B">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer state]]></commentInRDBMS>
+<generatorID>B52634AA-317B-8C4F-CF2A-121C7824BB76</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_COUNTRY" id="AC93F8BB-76CD-9BE0-641E-57DB35632B6D">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer country]]></commentInRDBMS>
+<generatorID>68DA568F-8796-B149-259A-F7670E0A12C3</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_PINCODE" id="58908F27-499D-5780-3AD0-E6A9CC8C7D0F">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer pincode]]></commentInRDBMS>
+<generatorID>48889E60-283F-ECD5-3967-4243BAE3773B</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_SEGMENT" id="CAEE26AF-84A4-1CFB-F6DA-91EF350FF322">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer segment]]></commentInRDBMS>
+<generatorID>D9C16A67-B3D5-83CC-5746-90385959AAF1</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0FD7F8E-EAA6-0E90-2DA7-B131F974441E" name="A_DIM_CUSTOMER_PK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:59:47 UTC</createdTime>
+<generatorID>62415271-7D77-F781-DDC9-E74F1D4719B2</generatorID>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B89018EB-9AA6-CF79-9BA1-930ADD2D5C87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

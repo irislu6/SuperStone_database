@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57F746FD-E3DF-D5BD-0172-7AFA76808BFD" name="A_DIM_ORDER">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:26:49 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ORDER_SEQ" id="1632C615-A0EB-84EA-CCDC-1425C11EFA39">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:26:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[order sequence]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="O_DATE" id="C2FD8F9D-1A9F-9FBA-9671-DD00BB9C789E">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:27:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[order date]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="O_PRIORITY" id="05B37325-B7FD-6100-8170-D0D9472D6091">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:28:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[order priority]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="O_SHIP_MODE" id="01C01287-6400-8E51-2A30-64D8065D5FBD">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:28:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[order ship mode]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="O_SHIP_DATE" id="3C6DEFC8-53F8-8420-0670-7EFC6DFFFBAE">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:28:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[order shipment date]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_ID" id="8DA342E6-5557-0262-92E7-EBFE748BAD16">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-24 13:10:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[order id]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F641377-D2A3-BD68-C53F-2DDCA0F73651" name="GroupA_ORDER PK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-10-19 01:27:06 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1632C615-A0EB-84EA-CCDC-1425C11EFA39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

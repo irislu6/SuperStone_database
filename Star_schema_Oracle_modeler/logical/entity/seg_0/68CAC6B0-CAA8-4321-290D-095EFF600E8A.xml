@@ -1,0 +1,365 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68CAC6B0-CAA8-4321-290D-095EFF600E8A" name="DIM_DATE">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:30:39 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="date_key" id="B5EE9694-5CBE-111B-A1E8-46487A02D5C6">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:33:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[date key]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="full_date" id="97A84905-A70A-EE09-2639-B233ECD11B1E">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:34:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[full date number]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_name" id="90B96F0B-960E-A1F8-DAE2-C6890A43C6C4">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:34:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[date name]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_name_us" id="6F95E586-4F4A-B5CD-DCAB-A782AE0E153A">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:34:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[date name US]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_name_eu" id="E7394582-EFD0-7771-A05A-D7B1A2F0257A">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:35:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[date name eu]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="day_of_week" id="56A474F0-B335-24AE-F732-7A736BBB9479">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:35:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[day of the week]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="day_name_of_week" id="45A7E7EC-7A46-4342-68F4-E8C4060F3E12">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:35:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[day name of the week]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="day_of_month" id="E806AB66-BAB8-1333-D9B3-27BEF08648E7">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:36:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[day of the month]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="day_of_year" id="E25D645A-E589-097F-FEB6-E9284AFBD16D">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:36:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[day  of the year]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weekday_weekend" id="BF411CE3-68F7-7590-984B-6FA44A08F9D1">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:36:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[weekday weekend]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="week_of_year" id="C9A03EBF-1F46-66F0-7DBF-FF1DC17B4E34">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:38:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[week of the year]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="month_name" id="53C35E21-716C-E3A0-8A11-F52D66167A1C">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:38:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[month  name]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="month_of_year" id="8299319B-AB90-9C4C-D7ED-A8DC960CB57F">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:38:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[month  of the year]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_last_day_of_month" id="3D3D05ED-7E79-640C-0791-A6F3EBF9F1FA">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:39:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[last day of the month]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calendar_quarter" id="15CCDED5-59AB-3910-8E24-63F20FCB6D73">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:39:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[calendar quarter]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calendar_year" id="82C3F1BF-1A1F-55C4-7C03-7DEAFC838DDB">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:39:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[calendar year]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calendar_year_month" id="529CD20D-9A9D-BE41-B03D-EAFEFC56420D">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:40:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[calendar year month]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calendar_year_qtr" id="9C2BBCDE-DA7C-B668-E292-2E6480FC4E20">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:40:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[calendar year quarter]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fiscal_month_of_year" id="70589BBF-BA39-1621-CFD7-4D4009602010">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:40:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[fiscal month of the year]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fiscal_quarter" id="61DF31FA-0B3D-D88B-6242-ABAF0298E3D2">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:40:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[fiscal quarter]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fiscal_year" id="8CB8C787-5570-0269-AFD3-D1720379803F">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:41:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[fiscal year]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fiscal_year_month" id="9DE328E6-9266-CC6E-B022-132BBE021CE4">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:41:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[fiscal year month]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fiscal_year_qtr" id="0F5F2401-93BF-558F-C873-E41AD46A5142">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:41:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[fiscal year quarter]]></commentInRDBMS>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48535602-5D85-1AF9-944A-B91E18658D77" name="A_DIM_DATE PK">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:34:12 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5EE9694-5CBE-111B-A1E8-46487A02D5C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

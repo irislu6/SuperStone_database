@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_REGION" directorySegmentName="seg_0" id="089D342E-6F5F-D183-0A4C-058CEE0062DB">
+<createdBy>xinhuilu</createdBy>
+<createdTime>2022-12-03 15:28:16 UTC</createdTime>
+<ownerDesignName>Star_schema_Oracle_modeler</ownerDesignName>
+<engineerTo>
+<item key="14423090-8F52-F395-200F-5DA9243B800B" value="true"/>
+</engineerTo>
+<sourcePk>AEA5EB6B-4AA2-E3E2-ECC6-1C868CEA659C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>369EC953-C0AE-BE2C-CE70-C39D69461026</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B685841-23EE-DC5A-B76E-718B9093CBEB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
